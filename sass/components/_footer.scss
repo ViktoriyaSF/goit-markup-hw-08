@@ -30,15 +30,6 @@
 
     transition: color $time $time-function;
 }
-// .contact__item {
-//     margin-bottom: 9px;
-//     @media screen and (max-width: 1199px) {
-//         margin-bottom: 8px;
-//     }
-// }
-// .contact__list :last-child {
-//     margin-bottom: 0;
-// }
 .contact__item:not(:last-child) {
     margin-bottom: 9px;
     @media screen and (max-width: 1199px) {
@@ -100,6 +91,9 @@
     @media screen and (min-width:480px) and (max-width: 1199px) {
     width: 450px;
     margin-bottom: 20px;
+    }
+    @media screen and (max-width:479px) {
+        margin-top: 20px;
     }
 }
 .footer-form__input::placeholder {
