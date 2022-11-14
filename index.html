@@ -122,20 +122,29 @@
           <h2 class="work__title">Чим ми займаємося</h2>
           <ul class="work__items list">
             <li>
-              <div class="work__thunb">
-                <img src="./images/one.jpg" alt="Робимо кістяк файлу" width="370" />
+              <div class="work__thumb">
+                <picture>
+                  <source srcset="./images/one-320.webp 1x, ./images/one-640.webp 2x" type="imeg/wep" />
+                  <img  srcset="./images/one-320.jpg 1x, ./images/one-640.jpg 2x" src="./images/one-320.jpg" alt="Робимо кістяк файлу" sizes="370px"/>
+                </picture>
                 <p class="work__text">Десктопні додатки</p>
               </div>
             </li>
             <li>
-              <div class="work__thunb">
-                <img src="./images/two.jpg" alt="Адаптуємо до носіїв" width="370" />
+              <div class="work__thumb">
+                <picture>
+                  <source srcset="./images/two-320.webp 1x, ./images/two-640.webp 2x" type="imeg/wep" />
+                  <img  srcset="./images/two-320.jpg 1x, ./images/two-640.jpg 2x" src="./images/two-320.jpg" alt="Адаптуємо до носіїв" sizes="370px"/>
+                </picture>
                 <p class="work__text">Мобільні додатки</p>
               </div>
             </li>
             <li>
-              <div class="work__thunb">
-                <img src="./images/three.jpg" alt="Формуємо дизайнер сторінки" width="370" />
+              <div class="work__thumb">
+                <picture>
+                  <source srcset="./images/three-320.webp 1x, ./images/three-640.webp 2x" type="imeg/wep" />
+                  <img  srcset="./images/three-320.jpg 1x, ./images/three-640.jpg 2x" src="./images/one-320.jpg" alt="Формуємо дизайнер сторінки" sizes="370px"/>
+                </picture>
                 <p class="work__text">Дизайнерські рішення</p>
               </div>
             </li>
@@ -148,7 +157,10 @@
           <h2 class="team__title">Наша команда</h2>
           <ul class="team__list list">
             <li class="team__bloc">
-              <img src="./images/demanenko.jpg" alt="фото Ігор Дем'яненко" width="270" />
+              <picture>
+                <source srcset="./images/demanenko-m-320.jpg 1x, ./images/demanenko-m-640.jpg 2x, ./images/demanenko-t-320.jpg 1x, ./images/demanenko-t-640.jpg 2x, ./images/demanenko-d-320.jpg 1x, ./images/demanenko-d-640.jpg 2x"  />
+                <img src="./images/demanenko-m-320.jpg" alt="фото Ігор Дем'яненко"  sizes="(min-width: 1200px) 270px, (min-width: 768px) 50vw, (min-width:480px) 460px, 100vw" />
+              </picture>
               <div class="team__items">
                 <h3 class="team__name">Ігор Дем'яненко</h3>
                 <p lang="en" class="team__text">Product Designer</p>

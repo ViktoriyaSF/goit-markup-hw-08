@@ -785,6 +785,12 @@ button {
     margin-bottom: 20px;
   }
 }
+@media screen and (max-width: 479px) {
+  .footer-form__input {
+    margin-bottom: 10px;
+    width: calc(100vw - 30px);
+  }
+}
 
 .footer-form__input::-webkit-input-placeholder {
   font-family: inherit;
