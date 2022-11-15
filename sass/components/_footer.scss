@@ -76,7 +76,9 @@
     align-items: center;
     width: 570px;
   }
-  width: 450px;
+  @media screen and (max-width: 1199px) {
+    max-width: 450px;
+  }
 }
 .footer-form__input {
   height: 50px;
@@ -95,7 +97,7 @@
     margin-bottom: 20px;
   }
   @media screen and (max-width: 479px) {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: calc(100vw - 30px);
   }
 }

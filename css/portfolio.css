@@ -538,6 +538,9 @@ button {
   .card {
     width: 100%;
   }
+  .card:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 @media screen and (max-width: 1199px) {
   .card {
@@ -545,6 +548,7 @@ button {
         flex-basis: calc((100% - 30px) / 2);
   }
 }
+
 .card__link {
   display: block;
   -webkit-box-shadow: none;
@@ -748,9 +752,6 @@ button {
   }
 }
 
-.footer-form {
-  width: 450px;
-}
 @media screen and (min-width: 1200px) {
   .footer-form {
     display: -webkit-box;
@@ -765,6 +766,11 @@ button {
         -ms-flex-align: center;
             align-items: center;
     width: 570px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .footer-form {
+    max-width: 450px;
   }
 }
 
@@ -787,7 +793,7 @@ button {
 }
 @media screen and (max-width: 479px) {
   .footer-form__input {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     width: calc(100vw - 30px);
   }
 }
