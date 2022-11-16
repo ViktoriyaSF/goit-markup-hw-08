@@ -39,8 +39,12 @@
   border-radius: 4px;
 
   @media screen and (max-width: 1199px) {
-    height: 609px;
-    width: 450px;
+    height: 95%;
+    width: 95%;
+    max-height: 609px;
+    max-width: 450px;
+
+    overflow: scroll;
   }
   &__titel {
     margin-bottom: 12px;

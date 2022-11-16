@@ -397,12 +397,12 @@ button {
 @media screen and (max-width: 767px) {
   .menu__container {
     display: none;
-    position: absolute;
+    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     width: 100%;
-    height: 796px;
+    height: 100%;
     padding: 48px 40px;
   }
   .menu__container.js-menu-container {
@@ -516,7 +516,7 @@ button {
 }
 @media screen and (max-width: 767px) {
   .project {
-    width: 326px;
+    max-width: 326px;
     row-gap: 15px;
     -webkit-box-pack: left;
         -ms-flex-pack: left;
@@ -648,6 +648,21 @@ button {
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: #ffffff;
+}
+@media screen and (max-width: 1199px) {
+  .overlay__text {
+    padding: 49px 24px 77px 24px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .overlay__text {
+    padding: 77px 24px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .overlay__text {
+    padding: 24px 24px;
+  }
 }
 
 .social {

@@ -5,7 +5,7 @@
   justify-content: center;
   margin-bottom: 50px;
   @media screen and (max-width: 767px) {
-    width: 326px;
+    max-width: 326px;
     row-gap: 15px;
     justify-content: left;
     margin-bottom: 40px;
@@ -125,4 +125,14 @@
   line-height: 1.56;
   letter-spacing: 0.03em;
   color: $up-white-text;
+
+  @media screen and (max-width: 1199px) {
+    padding: 49px 24px 77px 24px;
+  }
+  @media screen and (max-width: 767px) {
+    padding: 77px 24px;
+  }
+  @media screen and (max-width: 479px) {
+    padding: 24px 24px;
+  }
 }
