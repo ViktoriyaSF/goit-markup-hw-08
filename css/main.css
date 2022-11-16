@@ -566,14 +566,7 @@ button {
   color: #ffffff;
   text-transform: uppercase;
 }
-@media screen and (max-width: 479px) {
-  .hero__title {
-    width: 300px;
-    font-size: 22px;
-    line-height: 1.62;
-  }
-}
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .hero__title {
     width: 360px;
     font-size: 26px;
@@ -1131,7 +1124,7 @@ button {
 
 .backdrop {
   position: fixed;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   top: 0;
   left: 0;
@@ -1165,32 +1158,10 @@ button {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 }
-@media screen and (max-width: 479px) {
-  .model {
-    top: 0%;
-    left: 0%;
-    max-width: 100%;
-    padding: 30px;
-    -webkit-transform: translate(0, 0) scale(1);
-            transform: translate(0, 0) scale(1);
-  }
-}
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .model {
     height: 609px;
     width: 450px;
-  }
-}
-@media screen and (min-width: 480px) and (max-width: 1199px) and (min-width: 480px) {
-  .model {
-    -webkit-transform: translate(-50%, -25%) scale(1);
-            transform: translate(-50%, -25%) scale(1);
-  }
-}
-@media screen and (min-width: 480px) and (max-width: 1199px) and (min-width: 768px) {
-  .model {
-    -webkit-transform: translate(-50%, -35%) scale(1);
-            transform: translate(-50%, -35%) scale(1);
   }
 }
 .model__titel {
