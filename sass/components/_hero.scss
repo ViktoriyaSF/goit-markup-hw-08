@@ -61,8 +61,13 @@
   color: $up-white-text;
 
   text-transform: uppercase;
+  @media screen and (max-width: 479px) {
+    width: 300px;
+    font-size: 22px;
+    line-height: 1.62;
+  }
 
-  @media screen and (max-width: 1199px) {
+  @media screen and (min-width: 480px) and (max-width: 1199px) {
     width: 360px;
     font-size: 26px;
     line-height: 1.62;
