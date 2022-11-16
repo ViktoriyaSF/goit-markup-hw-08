@@ -1164,6 +1164,18 @@ button {
     width: 450px;
   }
 }
+@media screen and (max-width: 1199px) and (min-width: 480px) {
+  .model {
+    -webkit-transform: translate(-50%, -25%) scale(1);
+            transform: translate(-50%, -25%) scale(1);
+  }
+}
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  .model {
+    -webkit-transform: translate(-50%, -35%) scale(1);
+            transform: translate(-50%, -35%) scale(1);
+  }
+}
 .model__titel {
   margin-bottom: 12px;
   font-weight: 700;
