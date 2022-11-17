@@ -27,6 +27,7 @@
 
     &.is-open {
       display: flex;
+      overflow: auto;
       flex-direction: column;
       justify-content: space-between;
       transform: translateY(0%);

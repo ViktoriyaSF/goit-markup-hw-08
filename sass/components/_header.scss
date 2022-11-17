@@ -17,7 +17,7 @@
 // -----------меню для інших екранів--------
 .header__menu {
   @media screen and (max-width: 767px) {
-    & .header__items:not(:last-child) {
+    & .header__items {
       margin-bottom: 32px;
     }
   }
