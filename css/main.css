@@ -517,6 +517,12 @@ button {
   background-position: center;
   background-size: cover;
 }
+@media screen and (max-width: 479px) {
+  .hero {
+    padding-top: 97px;
+    padding-bottom: 97px;
+  }
+}
 @media screen and (min-width: 480px) and (min-device-pixel-ratio: 2), screen and (min-width: 480px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 480px) and (min-resolution: 192dpi), screen and (min-width: 480px) and (min-resolution: 2dppx) {
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("../images/header-mobile-640.jpg");
