@@ -74,24 +74,25 @@
   display: flex;
 
   font-weight: 500;
-  font-size: 12px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
   @media screen and (max-width: 767px) {
-    display: flex;
     flex-direction: column-reverse;
     gap: 32px;
     margin-bottom: 64px;
   }
   @media screen and (min-width: 768px) {
-    display: flex;
     flex-wrap: wrap;
     gap: 10px;
     margin-left: 90px;
+
+    font-size: 12px;
   }
   @media screen and (min-width: 1200px) {
     gap: $card-set-gap;
+
+    font-size: 16px;
   }
 }
 .header__contact--tel {
@@ -158,5 +159,25 @@
 
   @media screen and (max-width: 767px) {
     display: none;
+  }
+  &.mail {
+    @media screen and (min-width: 768px) {
+      width: 14px;
+      height: 10px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 16px;
+      height: 12px;
+    }
+  }
+  &.tel {
+    @media screen and (min-width: 768px) {
+      width: 10px;
+      height: 14px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 10px;
+      height: 16px;
+    }
   }
 }
