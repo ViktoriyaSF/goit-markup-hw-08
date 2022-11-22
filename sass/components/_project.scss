@@ -59,7 +59,9 @@
   }
 }
 .card__link {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 
   box-shadow: none;
   transition: box-shadow $time $time-function;
@@ -73,11 +75,12 @@
 .card__bloc {
   padding: 20px 24px;
   border: 1px solid $line-card;
-  &--height {
-    @media screen and (max-width: 1199px) and (min-width: 768px) {
-      padding-bottom: 56px;
-    }
-  }
+  flex-grow: 1;
+  // &--height {
+  //   @media screen and (max-width: 1199px) and (min-width: 768px) {
+  //     padding-bottom: 56px;
+  //   }
+  // }
 }
 
 .card__title {
