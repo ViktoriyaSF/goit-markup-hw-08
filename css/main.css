@@ -1196,12 +1196,12 @@ button {
   overflow-y: scroll;
 }
 
-.backdrop.is-hidden .model {
+.backdrop.is-hidden .modal {
   -webkit-transform: translate(-50%, -50%) scale(0) rotate(1turn);
           transform: translate(-50%, -50%) scale(0) rotate(1turn);
 }
 
-.model {
+.modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1220,7 +1220,7 @@ button {
   border-radius: 4px;
 }
 @media screen and (max-width: 1199px) {
-  .model {
+  .modal {
     height: 95%;
     width: 95%;
     max-height: 609px;
@@ -1228,7 +1228,7 @@ button {
     overflow: scroll;
   }
 }
-.model__titel {
+.modal__title {
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
@@ -1283,7 +1283,7 @@ button {
   margin-bottom: 20px;
 }
 
-.form__titel {
+.form__title {
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.16;
